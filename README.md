@@ -150,7 +150,7 @@ class MainActivity : AppCompatActivity() {
                 list.forEach { Log.d(TAG, "${it.uid} / ${it.firstName} / ${it.lastName} / ${it.age}") }
             }.join()
 
-
+            // データの更新と登録
             launch {
                 val user2 = User()
                 user2.uid = 2
